@@ -1,0 +1,23 @@
+body{
+	background: white;
+	font-family:"Typo_Pororo", courier, sans-serif; 
+	font-size:15pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	letter-spacing: 2px;
+
+}
+
+h1{
+	font-family: "210 Yeonpilsketch", courier, sans-serif;
+	font-size: 80pt;
+	font-variant: small-caps;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30pt;
+	line-height: 0.5;
+}
