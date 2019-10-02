@@ -1,0 +1,160 @@
+body{
+	background: white;
+}
+
+h1{
+	font-family:"Monoton", cursive, courier, sans-serif;
+	text-align: center;
+	font-size: 45pt;
+	color: white;
+}
+
+h2{
+	font-family:"Righteous", courier, sans-serif;
+	text-align: center;
+	font-size: 25pt;
+	letter-spacing: 2px;
+	line-height: 0;
+}
+
+h3{
+	font-size: 20pt;
+	line-height: 0;
+	text-align: center;
+}
+
+h4{
+	font-family:"Roboto", courier, sans-serif;
+	font-size: 15pt;
+	line-height: 1.5;
+	letter-spacing: 1.5px;
+}
+
+h5{
+	font-size: 15pt;
+	line-height: 0;
+	text-align: center;
+}
+
+h6{
+	font-size: 10pt;
+	line-height:0;
+	text-align: center;
+}
+
+h7{
+	font-size: 15pt;
+	line-height: 1.5;
+}
+
+
+table{
+	background:#deb9eb;
+
+}
+
+table, th{
+	border: 1px solid black;
+	text-align: center;
+}
+
+td{
+	border: 1px solid black;
+	text-align: left;
+}
+
+th, td{
+	font-family:"Roboto", courier, sans-serif;
+	padding: 15px;
+	width: 100px;
+}
+
+td:nth-child(1), th:nth-child(1)
+{background-color: red;}
+
+td:nth-child(2), th:nth-child(2)
+{background-color: green;
+color:white;}
+
+td:nth-child(3), th:nth-child(3)
+{background-color: blue;
+color:white;}
+
+
+.heading {
+	width: 100%;
+	height: 140px;
+	display: inline-block;
+	border: 0px solid #000;
+	position: relative;
+}
+
+.heading-title {
+	background: black;
+}
+
+.letter{
+	top: -765px;
+	left: 80px;
+	width: 100px;
+	height: 150px;
+	border: 0px solid #000;
+	position: relative;
+}
+
+.letter-w {
+	width: 100px;height: 150px;}
+
+.w{
+	position: absolute;
+	top: 25px;
+	left:15px;
+	height: 95px;
+	width: 20px;
+	background: red;
+	transform: rotate(170deg);
+	border-radius: 100px / 50px;
+}
+
+.w-1{
+	position: absolute;
+	top: 25px;
+	left: 70px;
+	height: 95px;
+	width: 20px;
+	background: blue;
+	transform: rotate(12deg);
+	border-radius: 100px / 70px;
+}
+
+.w-2{
+	position: absolute;
+	top:60px;
+	left:50px;
+	height: 50px;
+	width: 20px;
+	background: red;
+	transform: rotate(165deg);
+	border-radius: 100px / 40px;
+}
+
+.w-3{
+	position: absolute;
+	top: 60px;
+	left: 35px;
+	height: 50px;
+	width: 20px;
+	background: green;
+	transform: rotate(15deg);
+	border-radius: 100px / 30px;
+}
+
+.w-4{
+	position: absolute;
+	top: 85px;
+	left: 60px;
+	height: 15px;
+	width: 15px;
+	background: #deb9eb;
+	border-radius: 100px / 100px;
+}
