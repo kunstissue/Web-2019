@@ -1,0 +1,104 @@
+body{
+	background: black;
+}
+
+.charm{
+	position:relative;
+}
+
+.charm-word{
+	width: 30px;
+	height: 50px;
+	background-color: yellow;
+	background: linear-gradient(rgba(0,0,0,0.81),rgba(0,0,0,0.82)),;
+}
+
+.word-1{
+	position: absolute;
+	top: 3px;
+	left: 5px;
+	width: 5px;
+	height: 12px;
+	background-color: red;
+}
+
+.word-2{
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	width: 17px;
+	height: 3px;
+	background-color: red;
+}
+
+.word-3{
+	position: absolute;
+	top: 11px;
+	left: 7px;
+	width: 17px;
+	height: 4px;
+	background-color: red;
+}
+
+.word-4{
+	position: absolute;
+	top: 7px;
+	left: 22px;
+	width: 3px;
+	height: 40px;
+	background-color: red;
+}
+
+.word-5{
+	position: absolute;
+	top: 18px;
+	left: 5px;
+	width: 18px;
+	height: 3px;
+	background-color: red;
+}
+
+.word-6{
+	position: absolute;
+	top: 24px;
+	left: 5px;
+	width: 15px;
+	height: 3px;
+	background-color: red;
+}
+
+.word-7{
+	position: absolute;
+	top: 27px;
+	left: 11px;
+	width: 4px;
+	height: 10px;
+	background-color: red;
+}
+
+.word-8{
+	position: absolute;
+	top: 29px;
+	left: 15px;
+	width: 8px;
+	height: 3px;
+	background-color: red;
+}
+
+.word-9{
+	position: absolute;
+	top: 33px;
+	left: 15px;
+	width: 5px;
+	height: 2px;
+	background-color: red;
+}
+
+.word-10{
+	position: absolute;
+	top: 38px;
+	left: 5px;
+	width: 18px;
+	height: 4px;
+	background-color: red;
+
