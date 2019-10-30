@@ -1,4 +1,4 @@
-var sign = "FIND THE HIDDEN CHARM AND PLAY WITH IT";
+var sign = "FIND THE HIDDEN INCANTATION AND PLAY WITH IT";
 
 $("p").mouseover(function(){
 	$(this)
