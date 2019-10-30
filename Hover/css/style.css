@@ -40,6 +40,7 @@ audio{
 	height: 50px;
 	background-repeat: no-repeat;
 	background-position: center;
+	cursor: pointer;
 }
 
 .changecharm{
