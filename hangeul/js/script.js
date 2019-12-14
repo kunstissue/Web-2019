@@ -685,7 +685,7 @@ function _(id){
 function audioApp(){
   var audio = new Audio();
   var audio_folder = "pronunciation/";
-  var audio_ext = ".mp3";
+  var audio_ext = ".m4a";
   var audio_index = 1;
   var is_playing = false;
   var playingtrack;
