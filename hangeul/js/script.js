@@ -677,6 +677,7 @@ document.querySelector('.close-5').addEventListener('click', function(){
   document.querySelector('.bg-modal-5').style.display = 'none';
 });
 
+$('trackbox').html('<audio autoplay><source src="../pronunciation/.mp3"></audio>')
 
 function _(id){
   return document.getElementById(id);
