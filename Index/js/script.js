@@ -1,3 +1,12 @@
+document.querySelector('.section1').addEventListener('click', function() {
+  document.querySelector('.bg1').style.display = 'flex';
+});
+
+document.querySelector('.closeicon1').addEventListener('click', function(){
+  document.querySelector('.bg1').style.display = 'none';
+});
+
+
 document.querySelector('.section2').addEventListener('click', function() {
   document.querySelector('.bg2').style.display = 'flex';
 });
@@ -31,6 +40,24 @@ document.querySelector('.section4').addEventListener('click', function() {
 document.querySelector('.closeicon4').addEventListener('click', function(){
   document.querySelector('.bg4').style.display = 'none';
 });
+
+document.querySelector('.section6').addEventListener('click', function() {
+  document.querySelector('.bg6').style.display = 'flex';
+});
+
+document.querySelector('.closeicon6').addEventListener('click', function(){
+  document.querySelector('.bg6').style.display = 'none';
+});
+
+document.querySelector('.section7').addEventListener('click', function() {
+  document.querySelector('.bg7').style.display = 'flex';
+});
+
+document.querySelector('.closeicon7').addEventListener('click', function(){
+  document.querySelector('.bg7').style.display = 'none';
+});
+
+
 
 $(document).ready(function(){
 	'use strict';
